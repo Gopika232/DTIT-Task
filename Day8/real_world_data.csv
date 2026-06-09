@@ -1,0 +1,16 @@
+Employee_ID,Name,Age,Department,Salary,Experience,City,Performance
+101,Arun,25,IT,45000,2,Chennai,Good
+102,Divya,28,HR,52000,5,Coimbatore,Excellent
+103,Karthik,30,Finance,60000,7,Madurai,Good
+104,Meena,26,IT,,3,Chennai,Average
+105,Ravi,35,Marketing,75000,10,Salem,Excellent
+106,Sneha,24,HR,40000,1,Vellore,Good
+107,Ajay,29,Finance,58000,6,Trichy,Average
+108,Priya,31,IT,65000,8,Chennai,Excellent
+109,Rahul,27,Marketing,50000,4,Madurai,Good
+110,Anu,23,HR,38000,1,Salem,Average
+110,Anu,23,HR,38000,1,Salem,Average
+111,Vijay,,IT,70000,9,Coimbatore,Excellent
+112,Latha,33,Finance,62000,8,Trichy,Good
+113,Manoj,28,,55000,5,Chennai,Average
+114,Sara,26,Marketing,48000,3,Vellore,Good
