@@ -1,0 +1,43 @@
+              AI Attendance System
+                      |
+                      |
+              Webcam / Camera
+                      |
+                      v
+        +----------------------------+
+        |        face_detection.py   |
+        +----------------------------+
+        |                            |
+        | 1. Capture video frames    |
+        |    cv2.VideoCapture()      |
+        |                            |
+        | 2. Image preprocessing     |
+        |    BGR → Gray              |
+        |                            |
+        | 3. Haar Cascade Model      |
+        |    Face Detection          |
+        |                            |
+        | 4. Draw Rectangle          |
+        |                            |
+        | 5. Detect Face Event       |
+        +----------------------------+
+                      |
+                      |
+              Face Detected
+                      |
+                      v
+        +----------------------------+
+        |     attendance_logger.py   |
+        +----------------------------+
+        |                            |
+        | Receive employee name      |
+        |                            |
+        | Create timestamp           |
+        |                            |
+        | Store attendance log       |
+        |                            |
+        | attendance.log file        |
+        +----------------------------+
+                      |
+                      v
+              Attendance Report
