@@ -1,0 +1,11 @@
+Age,MonthlyCharges,Tenure,SupportCalls,Contract,Churn
+25,2000,12,1,Monthly,No
+40,5000,36,0,Yearly,No
+35,7000,24,3,Monthly,Yes
+50,9000,60,1,Yearly,No
+28,3000,8,5,Monthly,Yes
+45,8000,48,2,Yearly,No
+30,4500,18,4,Monthly,Yes
+55,10000,72,0,Yearly,No
+38,6500,30,3,Monthly,Yes
+42,7500,40,1,Yearly,No
