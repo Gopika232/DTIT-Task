@@ -1,0 +1,9 @@
+Name,Age,Salary,Department,UnnecessaryColumn
+Gopika,22,35000,IT,101
+Anu,24,,HR,102
+Priya,23,40000,Finance,103
+Kavi,,30000,IT,104
+Rahul,25,50000,Finance,105
+Sneha,21,28000,HR,106
+Arun,26,,IT,107
+Divya,22,45000,Finance,108

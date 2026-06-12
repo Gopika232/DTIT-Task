@@ -1,0 +1,22 @@
+import pandas as pd
+from sklearn.model_selection import train_test_split    #type:ignore
+from sklearn.linear_model import LogisticRegression    #type:ignore
+
+# Create Dataset
+data = {"Age": [22, 25, 28, 30, 35, 40],"Salary": [25000, 30000, 40000, 50000, 60000, 80000],"Purchased": [0, 0, 0, 1, 1, 1]}
+df = pd.DataFrame(data)
+
+# Split Features and Target
+X = df[["Age", "Salary"]]
+y = df["Purchased"]
+
+# Split Training and Testing Data
+X_train, X_test, y_train, y_test = train_test_split(X,y,test_size=0.2,random_state=42)
+
+# Train Logistic Regression Model
+model = LogisticRegression()
+model.fit(X_train,y_train)
+print("Model Training Completed")
+
+####    OUTPUT   ####
+# Model Training Completed
