@@ -1,0 +1,6 @@
+Name,Age,Salary,Department,Experience
+Gopika,22,35000,IT,1
+Priya,25,45000,HR,3
+Arun,,50000,IT,5
+Kumar,30,,Finance,7
+Divya,28,60000,,4
