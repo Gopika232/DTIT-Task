@@ -1,0 +1,106 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 357-797-001
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 357-797-001
+INFO:werkzeug: * Detected change in 'D:\\DTIT\\Internsharks\\dtit-task\\day26\\monitor.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 357-797-001
+INFO:werkzeug: * Detected change in 'D:\\DTIT\\Internsharks\\dtit-task\\day26\\monitor.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 357-797-001
+INFO:werkzeug: * Detected change in 'D:\\DTIT\\Internsharks\\dtit-task\\day26\\monitor.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 357-797-001
+INFO:werkzeug: * Detected change in 'D:\\DTIT\\Internsharks\\dtit-task\\day26\\monitor.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 357-797-001
+INFO:werkzeug: * Detected change in 'D:\\DTIT\\Internsharks\\dtit-task\\day26\\monitor.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 357-797-001
+INFO:werkzeug: * Detected change in 'D:\\DTIT\\Internsharks\\dtit-task\\day26\\monitor.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 357-797-001
+INFO:werkzeug: * Detected change in 'D:\\DTIT\\Internsharks\\dtit-task\\day26\\monitor.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 357-797-001
+INFO:werkzeug: * Detected change in 'D:\\DTIT\\Internsharks\\dtit-task\\day26\\monitor.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 357-797-001
+INFO:werkzeug: * Detected change in 'D:\\DTIT\\Internsharks\\dtit-task\\day26\\monitor.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 357-797-001
+INFO:werkzeug: * Detected change in 'D:\\DTIT\\Internsharks\\dtit-task\\day26\\monitor.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 357-797-001
+INFO:werkzeug: * Detected change in 'D:\\DTIT\\Internsharks\\dtit-task\\day26\\monitor.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 357-797-001
+INFO:werkzeug: * Detected change in 'D:\\DTIT\\Internsharks\\dtit-task\\day26\\monitor.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 357-797-001
+INFO:werkzeug: * Detected change in 'D:\\DTIT\\Internsharks\\dtit-task\\day26\\monitor.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 357-797-001
+INFO:werkzeug: * Detected change in 'D:\\DTIT\\Internsharks\\dtit-task\\day26\\monitor.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 357-797-001
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 357-797-001
+INFO:werkzeug: * Detected change in 'D:\\DTIT\\Internsharks\\dtit-task\\day26\\sample.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 357-797-001
+INFO:root:Input: [5.1, 3.5, 1.4, 0.2] Prediction: 0
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2026 10:53:34] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2026 10:54:50] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2026 10:54:58] "GET / HTTP/1.1" 200 -
+INFO:root:Input: [5.1, 3.5, 1.4, 0.2] Prediction: 0
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2026 10:55:14] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\DTIT\\Internsharks\\dtit-task\\day26\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 357-797-001
+INFO:werkzeug: * Detected change in 'D:\\DTIT\\Internsharks\\dtit-task\\day26\\monitor.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 357-797-001
+INFO:werkzeug: * Detected change in 'D:\\DTIT\\Internsharks\\dtit-task\\day26\\monitor.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 357-797-001
+INFO:werkzeug: * Detected change in 'D:\\DTIT\\Internsharks\\dtit-task\\day26\\monitor.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 357-797-001
+INFO:werkzeug: * Detected change in 'D:\\DTIT\\Internsharks\\dtit-task\\day26\\monitor.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 357-797-001
+INFO:werkzeug: * Detected change in 'D:\\DTIT\\Internsharks\\dtit-task\\day26\\monitor.py', reloading
+INFO:werkzeug: * Restarting with stat
