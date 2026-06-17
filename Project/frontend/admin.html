@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>AI Attendance Admin Panel</h1>
+    <div class="login-box">
+        <h2>Admin Dashboard</h2>
+        <button onclick="profile()">Manage Profile</button>
+        <button onclick="reports()">View Attendance</button>
+        <button onclick="logout()">Logout</button>
+        <h3 id="count">Loading...</h3>
+    </div>
+
+    <script>
+        function profile() {
+            window.location.href = "profile.html";
+        }
+        function reports() {
+            window.location.href = "reports.html";
+        }
+        function logout() {
+            window.location.href = "login.html";
+        }
+        fetch("/attendance")
+            .then(res => res.json())
+            .then(data => {
+                document.getElementById("count").innerHTML =
+                    "Total Attendance : " + data.length;
+            });
+    </script>
+</body>
+</html>

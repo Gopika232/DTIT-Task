@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>AI Attendance System</h1>
+    <h2>Register User</h2>
+    <form id="registerForm">
+        <input id="username" placeholder="Username" required>
+        <br>
+        <input id="password" type="password" placeholder="Password" required>
+        <br>
+        <button>Register</button>
+        <p>Already Registered.<storng class="click" onclick="loginPage()">click here</storng>
+        </p>
+    </form>
+    <p id="msg"></p>
+    <script>
+        document.getElementById("registerForm").addEventListener("submit",
+            async function (e) {
+                e.preventDefault();
+                let response = await fetch("/register", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({
+                        username: document.getElementById("username").value,
+                        password: document.getElementById("password").value
+                    })
+                });
+                let data = await response.json();
+                if (response.ok) {
+                    document.getElementById("msg").innerHTML = data.message;
+                    // go to login page after 1 second
+                    setTimeout(function () {
+                        window.location.href = "login.html";
+                    }, 1000);
+                }
+                else {
+                    document.getElementById("msg").innerHTML = data.message;
+                }
+            });
+        function loginPage() {
+            window.location.href = "/login";
+        }
+    </script>
+</body>
+
+</html>

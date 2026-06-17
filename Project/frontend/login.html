@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>AI Attendance</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>AI Attendance Login</h2>
+    <input id="username" placeholder="Username">
+    <input id="password" placeholder="Password">
+    <button onclick="login()">Login</button>
+    <p class="text1">Do You want to Register.<storng class="click" onclick="register()">click here </storng>
+    </p>
+    <script>
+        function login() {
+            let username = document.getElementById("username").value;
+            let password = document.getElementById("password").value;
+
+            fetch("/login",
+                {
+                    method: "POST",
+
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+
+                    body: JSON.stringify({
+
+                        username: username,
+                        password: password
+
+                    })
+
+                })
+
+                .then(response => response.json())
+
+                .then(data => {
+
+
+                    if (data.message == "Login success") {
+                        alert("Login Successful");
+
+                        window.location.href = "/dashboard";
+                    }
+                    else {
+                        alert(data.message);
+                    }
+
+
+                })
+
+                .catch(error => {
+
+                    console.log(error);
+                    alert("Server connection error");
+
+                });
+
+
+        }
+
+        function register() {
+            window.location.href = "register.html";
+        }
+    </script>
+</body>
+
+</html>

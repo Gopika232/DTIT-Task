@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>AI Attendance System</h1>
+    <h2>User Profile</h2>
+    <div class="login-box">
+        <input id="username" placeholder="Username">
+        <input id="email" placeholder="Email">
+        <input id="phone" placeholder="Phone">
+        <button onclick="saveProfile()">Save</button>
+        <button onclick="updateProfile()">Update</button>
+        <button onclick="deleteProfile()">Delete</button>
+        <p id="msg"></p>
+    </div>
+    <script>
+
+        function saveProfile() {
+
+            fetch("/profile",
+                {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({
+
+                        username: document.getElementById("username").value,
+                        email: document.getElementById("email").value,
+                        phone: document.getElementById("phone").value
+
+                    })
+                })
+                .then(res => res.json())
+                .then(data => {
+                    document.getElementById("msg").innerHTML = data.message;
+                })
+
+        }
+
+
+
+        function updateProfile() {
+
+            fetch("/profile/update",
+                {
+                    method: "PUT",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({
+
+                        username: document.getElementById("username").value,
+                        email: document.getElementById("email").value,
+                        phone: document.getElementById("phone").value
+
+                    })
+                })
+                .then(res => res.json())
+                .then(data => {
+                    document.getElementById("msg").innerHTML = data.message;
+                })
+
+        }
+
+
+
+        function deleteProfile() {
+
+            let username = document.getElementById("username").value;
+
+
+            fetch("/profile/delete",
+                {
+                    method: "DELETE",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({
+                        username: username
+                    })
+                })
+                .then(res => res.json())
+                .then(data => {
+                    document.getElementById("msg").innerHTML = data.message;
+                })
+        }
+    </script>
+
+
+</body>
+
+</html>

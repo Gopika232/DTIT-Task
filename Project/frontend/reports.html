@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Attendance Reports</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Attendance Report</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Username</th>
+                <th>Date</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody id="table">
+        </tbody>
+    </table>
+    <script>
+        fetch("/attendance")
+            .then(res => res.json())
+            .then(data => {
+                let table = document.getElementById("table");
+                data.forEach(row => {
+                    table.innerHTML += `<tr>
+                                    <td>${row[0]}</td>
+                                    <td>${row[1]}</td>
+                                    <td>${row[2]}</td>
+                                    <td>${row[3]}</td>
+                                    </tr>`;
+                });
+            });
+    </script>
+</body>
+</html>

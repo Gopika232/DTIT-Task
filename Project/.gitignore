@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Environment files
+.env
+
+# Database
+attendance.db
+*.sqlite
+*.sqlite3
+
+# Attendance generated files
+attendance/*.csv
+
+# Uploaded images
+dataset/*
+!dataset/.gitkeep
+
+# ML generated files
+models/*.pkl
+models/*.joblib
+*.h5
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Testing cache
+.pytest_cache/
+.coverage
